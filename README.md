@@ -39,7 +39,7 @@ To be able work with SKILLS you need persistency to store them. ABAP filesytem p
 
 1. Create a workspace folder on your local filesystem (ADT_VSCODE)
 2. Open the folder in VSCode
-3. install the skills as described above
+3. install the skills as described above opening a terminal in the local folder (ADT_VSCODE)
 4. Add SAP System as folder to the workspace (DOCKER)
 5. Save the workspace file and open it next time instead of the package in VSCode (ADT_VSCODE.code-workspace)
 
