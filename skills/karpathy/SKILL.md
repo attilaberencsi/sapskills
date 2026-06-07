@@ -1,6 +1,6 @@
 ---
 name: karpathy
-description: Behavioral guidelines for coding agents to reduce common implementation mistakes by surfacing assumptions, preferring simple solutions, keeping edits tightly scoped, and validating against explicit success criteria.
+description: Apply to all programming languages when creating, refactoring, reviewing, or explaining source code artifacts. Behavioral guidelines for coding agents to reduce common implementation mistakes by surfacing assumptions, preferring simple solutions, keeping edits tightly scoped, and validating against explicit success criteria. 
 license: MIT
 ---
 
