@@ -1,6 +1,6 @@
 ---
 name: clean-abap
-description: Apply Clean ABAP guidance when creating, refactoring, reviewing, or explaining ABAP artifacts such as classes, interfaces, reports, function modules, and unit tests.
+description: Clean ABAP StyleGuides. Apply Clean ABAP guidance when creating, refactoring, reviewing, or explaining ABAP artifacts such as classes, interfaces, reports, function modules, and unit tests.
 license: CC BY 3.0
 ---
 

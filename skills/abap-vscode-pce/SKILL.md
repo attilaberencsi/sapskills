@@ -1,6 +1,6 @@
 ---
 name: abap-vscode-pce
-description: Guidance for agents working on ABAP code and Repository Objects in VS Code with the virtual ABAP workspace folder, where uri starts with abap:/ For S/4HANA Private Cloud Edition (PCE).
+description: ADT VSCode guidance for agents working on ABAP code and Repository Objects in VS Code with the virtual ABAP workspace folder, where uri starts with abap:/ For S/4HANA Private Cloud Edition (PCE).
 license: MIT
 ---
 
