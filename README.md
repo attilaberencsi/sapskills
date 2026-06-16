@@ -8,25 +8,25 @@ List available skills without installing:
 npx skills add attilaberencsi/sapskills --list
 ```
 
-Install all skills from this repository with the skills CLI:
+Installation of all skills from this repository with the skills CLI:
 
 ```bash
 npx skills add attilaberencsi/sapskills
 ```
 
-Install only the Clean ABAP skill:
+Installation of the Clean ABAP skill only:
 
 ```bash
 npx skills add attilaberencsi/sapskills --skill clean-abap
 ```
 
-Install only the Karpathy skill:
+Installation of the Karpathy skill only:
 
 ```bash
 npx skills add attilaberencsi/sapskills --skill karpathy
 ```
 
-Install only the VSCode Private Clouid Edition (PCE) skill.
+Installation of the VSCode Private Clouid Edition (PCE) skill only:
 
 This helps CoPilot to understand the usage of ADT VSCode Extension.
 
