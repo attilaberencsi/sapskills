@@ -26,7 +26,11 @@ Install only the Karpathy skill:
 npx skills add attilaberencsi/sapskills --skill karpathy
 ```
 
-Install only the VSCode Private Clouid Edition (PCE) skill. This helps CoPilot to understand using the VSCode ADT Extension. You do not need this in Eclipse, use [copilot-instructions.md](copilot-instructions.md) for that
+Install only the VSCode Private Clouid Edition (PCE) skill.
+
+This helps CoPilot to understand the usage of ADT VSCode Extension.
+
+NOTE: You do not need this in Eclipse, use [copilot-instructions.md](copilot-instructions.md) for that.
 
 ```bash
 npx skills add attilaberencsi/sapskills --skill abap-vscode-pce
