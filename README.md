@@ -2,16 +2,16 @@
 
 This is a skill repository for SAP Development. It contains general development skills, and ABAP related in first round.
 
-Install all skills from this repository with the skills CLI:
-
-```bash
-npx skills add attilaberencsi/sapskills
-```
-
 List available skills without installing:
 
 ```bash
 npx skills add attilaberencsi/sapskills --list
+```
+
+Install all skills from this repository with the skills CLI:
+
+```bash
+npx skills add attilaberencsi/sapskills
 ```
 
 Install only the Clean ABAP skill:
@@ -26,6 +26,12 @@ Install only the Karpathy skill:
 npx skills add attilaberencsi/sapskills --skill karpathy
 ```
 
+Install only the VSCode Private Clouid Edition (PCE) skill. This helps CoPilot to understand using the VSCode ADT Extension. You do not need this in Eclipse, use [copilot-instructions.md](copilot-instructions.md) for that
+
+```bash
+npx skills add attilaberencsi/sapskills --skill abap-vscode-pce
+```
+
 This repository is structured as a multi-skill catalog so additional SAP- and ABAP-related skills can be added over time under `skills/`.
 
 ## Available Skills
@@ -35,18 +41,7 @@ This repository is structured as a multi-skill catalog so additional SAP- and AB
 
 ## Hints for ABAPers
 
-To be able work with SKILLS you need persistency to store them. ABAP filesytem provided by the VSCode extension is virtual. Therefore a multi-root workspace is needed. This way agents can recognioze the skills and work with them. Other aspect that instead of creating an ABAP restricted agent, full-stack develeopment including the UI5 and ABAP or CAP project is possible with the same agent aware of backend and frontend artefacts. 
-
-1. Create a workspace folder on your local filesystem (ADT_VSCODE)
-2. Open the folder in VSCode
-3. install the skills as described above opening a terminal in the local folder (ADT_VSCODE)
-4. Add SAP System as folder to the workspace (DOCKER)
-5. Save the workspace file and open it next time instead of the package in VSCode (ADT_VSCODE.code-workspace)
-
-As result both the local and virtual filesystem becomes part of your workspace.
-
-![1780844190248](image/README/1780844190248.png)
-
+To be able work with SKILLS you need persistency to store them. ABAP filesytem provided by the VSCode extension is virtual. [Here is a Guide](https://www.sapdev.eu/agentic-skills-for-abap-development/#Workspace_setup) covering VScode and Eclipse.
 
 ## Origins
 
