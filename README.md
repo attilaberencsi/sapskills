@@ -38,6 +38,7 @@ This repository is structured as a multi-skill catalog so additional SAP- and AB
 
 - `clean-abap`: Apply Clean ABAP guidance when creating, refactoring, reviewing, or explaining ABAP artifacts. Origin:
 - `karpathy`: Apply concise behavioral guardrails for coding agents: think before coding, keep solutions simple, make surgical changes, and verify against explicit success criteria.
+- `abap-vscode-pce`: Instructions to work with ADT in VScode
 
 ## Hints for ABAPers
 
