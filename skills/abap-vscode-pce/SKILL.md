@@ -27,4 +27,4 @@ This skill applies to agents working on ABAP source in Visual Studio Code when t
 
 ## VS Code detection and usage example
 
-- Always open files by `abap:/` URI using `vscode.workspace.openTextDocument` and `vscode.window.showTextDocument` before making edits. Use `vscode.WorkspaceEdit` to apply changes so the ABAP extension handles sync/activation.
+- Try to open files by `abap:/` URI using `vscode.workspace.openTextDocument` and `vscode.window.showTextDocument` before making edits. Use `vscode.WorkspaceEdit` to apply changes so the ABAP extension handles sync/activation.
