@@ -14,7 +14,6 @@ This skill applies to agents working on ABAP source in Visual Studio Code when t
 - packages starting with name `$` or TEST_ are reserved for local development and testing, no transports are required for work in these packages.
 - Use the ADT MCP server for creating new ABAP development objects when available. ADT MCP has commands to retrieve which objects can be created and which payload proprties are needed for creation.
 - You MUST adjust the file search because the ABAP VSCode extension uses the virtual file system as a workspace folder. Always search via the directory first!
-- Always add and edit source code via the VS Code editor. If needed open the editor first via the provided file paths.
 
 ## Testing instructions
 
