@@ -8,7 +8,7 @@ List available skills without installing:
 npx skills add attilaberencsi/sapskills --list
 ```
 
-Installation of all skills from this repository with the skills CLI:
+Installation wizard to pick skills from this repository using the skills CLI:
 
 ```bash
 npx skills add attilaberencsi/sapskills
